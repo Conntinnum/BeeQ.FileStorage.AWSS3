@@ -1,0 +1,18 @@
+﻿## AWS
+mkdir minio-data -Force; docker run -d --name minio-s3 -p 9000:9000 -p 9001:9001 -e "MINIO_ROOT_USER=minioadmin" -e "MINIO_ROOT_PASSWORD=minioadmin" -v "${PWD}\.docker\minio-data:/data" quay.io/minio/minio server /data --console-address ":9001"
+
+API S3 local: http://localhost:9000
+Interfaz web: http://localhost:9001
+Usuario: minioadmin
+Contraseña: minioadmin
+Archivos persistidos en \.docker\minio-data
+
+
+var s3 = new AmazonS3Client(
+    "minioadmin",
+    "minioadmin",
+    new AmazonS3Config
+    {
+        ServiceURL = "http://localhost:9000",
+        ForcePathStyle = true
+    });

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeQ.FileStorage.AWSS3", "BeeQ.FileStorage.AWSS3.csproj", "{FFC86336-39CC-0A98-BECF-8A6AAC6E8133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFC86336-39CC-0A98-BECF-8A6AAC6E8133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC86336-39CC-0A98-BECF-8A6AAC6E8133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC86336-39CC-0A98-BECF-8A6AAC6E8133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC86336-39CC-0A98-BECF-8A6AAC6E8133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99CDEEA0-7781-4C19-980A-27716427532E}
+	EndGlobalSection
+EndGlobal
